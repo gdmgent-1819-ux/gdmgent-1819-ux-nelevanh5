@@ -7,3 +7,121 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+body.Home{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    line-height: 20pt;
+    letter-spacing: 1pt;
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 150%;
+}
+
+.Header{
+    height: 150px;
+}
+
+img.Logo{
+    object-fit: cover;
+    height: 180px;
+}
+
+.Block{
+    background-color: #3D8E88;
+    box-shadow: 0 3px 6px #7B7B7B;
+    color: #FFFFFF;
+    width: 80%;
+}
+
+ul.Navigatie1{
+    list-style-type: none;
+    width: 200px;
+    float: left;
+    text-align: right;
+}
+
+li.Navigatie1 a{
+    display: block;
+    font-weight: 800;
+    font-size: 18pt;
+    color: #FFFFFF;
+    line-height: 40pt;
+    text-decoration: none;; 
+    margin-right: 20px;
+    padding-right: 10px;
+}
+
+li.Navigatie1 a:hover{
+    background-color: #FFFFFF;
+    color: #3D8E88;
+    box-shadow: 0px 2px 10px #7B7B7B;
+}
+
+li.Navigatie1 a:active{
+    background-color: #E4E4E4;
+    box-shadow: none;
+}
+
+.Beschrijving1{
+    text-align: right;
+    padding: 5px 25px;
+}
+
+img.Fotos{
+    display: inline-block;
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    margin: 31px;
+}
+
+.Beschrijving2{
+    font-weight: 400;
+    margin-left: 350px;
+    margin-right: 20px;
+    color: #7B7B7B;
+    margin-bottom: 40px;
+}
+
+.Footer{
+    background-color: #52BFB6;
+    box-shadow: 3px 0 6px #7B7B7B;
+}
+
+ul.Navigatie2{
+    list-style-type: none;
+    overflow: hidden;
+    text-align: left;
+}
+
+li.Navigatie2{
+    float: left;
+}
+
+li.Navigatie2 a{
+    display: block;
+    font-weight: 600;
+    font-size: 18pt;
+    color: #FFFFFF;
+    line-height: 40pt;
+    text-decoration: none;; 
+    margin-right: 40px;
+    margin-top: 50px;
+}
+
+li.Navigatie2 a:hover{
+    text-shadow: 0px 2px 8px #7B7B7B;
+}
+
+li.Navigatie2 a:active{
+    color: #E4E4E4;
+    text-shadow: none;
+}
+
+img.Logo2{
+    object-fit: cover;
+    height: 180px;
+    float: right;
+}
